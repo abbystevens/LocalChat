@@ -14,6 +14,7 @@
 		656300DF1A1EE496003B5188 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656300DE1A1EE496003B5188 /* Images.xcassets */; };
 		656300E21A1EE496003B5188 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656300E01A1EE496003B5188 /* LaunchScreen.xib */; };
 		656300EE1A1EE497003B5188 /* LocalChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656300ED1A1EE497003B5188 /* LocalChatTests.m */; };
+		6563015D1A244328003B5188 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563015C1A244328003B5188 /* ConnectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		656300E71A1EE497003B5188 /* LocalChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656300EC1A1EE497003B5188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656300ED1A1EE497003B5188 /* LocalChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalChatTests.m; sourceTree = "<group>"; };
+		6563015B1A244327003B5188 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		6563015C1A244328003B5188 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				656300DE1A1EE496003B5188 /* Images.xcassets */,
 				656300E01A1EE496003B5188 /* LaunchScreen.xib */,
 				656300D11A1EE496003B5188 /* Supporting Files */,
+				6563015B1A244327003B5188 /* ConnectViewController.h */,
+				6563015C1A244328003B5188 /* ConnectViewController.m */,
 			);
 			path = LocalChat;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				656300DA1A1EE496003B5188 /* ViewController.m in Sources */,
 				656300D71A1EE496003B5188 /* AppDelegate.m in Sources */,
 				656300D41A1EE496003B5188 /* main.m in Sources */,
+				6563015D1A244328003B5188 /* ConnectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				656300F31A1EE497003B5188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656300F41A1EE497003B5188 /* Build configuration list for PBXNativeTarget "LocalChatTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				656300F61A1EE497003B5188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

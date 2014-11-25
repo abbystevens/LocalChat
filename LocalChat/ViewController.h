@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate> 
 
+@property (strong, nonatomic) IBOutlet UIView *chatEntryView;
+@property (weak, nonatomic) IBOutlet UITextField *chatText;
+@property (weak, nonatomic) IBOutlet UIButton *sendButton;
+@property (weak, nonatomic) IBOutlet UITextView *chatTextView;
 
 @end
 
